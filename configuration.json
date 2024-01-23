@@ -1,0 +1,48 @@
+{
+  "configuration": {
+    "sase_config": {
+      "bgcloud": {
+        "domains": [
+          ".bgcls1.com"
+        ],
+        "bypass_list_urls": [
+          "*.robinhood.com",
+          "192.168.1.1/16"
+        ],
+        "bypass_list_apps": {
+          "ios": {
+            "com.apple.DocumentsApp": "Apple Files",
+            "com.apple.new_app": "New App"
+          }
+        },
+        "block_list_urls": [
+          "*.youtube.com",
+          "192.168.0.0/16",
+          "127.0.0.1"
+        ],
+        "block_list_apps": {
+          "ios": {
+            "com.microsoft.excel": "Microsoft Excel"
+          },
+          "android": {
+            "com.google.youtube": "YouTube"
+          }
+        }
+      }
+    },
+    "config_version": ""
+  },
+  "appsettings": {
+    "enable_vpn_button": false,
+    "hide_vpn_status_icon": true,
+    "authentication_mode": "login-prompt",
+    "configurable_setting": {
+      "telemetry_send_interval": 30,
+      "configuration_poll_interval": 30,
+      "login_session_timeout": 1440
+    },
+    "automatic_login": true,
+    "fail_open_enabled": true
+  }
+}
+
