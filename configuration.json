@@ -6,17 +6,14 @@
           ".bgcls1.com"
         ],
         "bypass_list_urls": [
-          "*.robinhood.com",
           "192.168.1.1/16"
         ],
         "bypass_list_apps": {
           "ios": {
-            "com.apple.DocumentsApp": "Apple Files",
             "com.apple.new_app": "New App"
           }
         },
         "block_list_urls": [
-          "*.youtube.com",
           "192.168.0.0/16",
           "127.0.0.1"
         ],
